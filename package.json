@@ -1,0 +1,20 @@
+{
+  "name": "tutorial---working-with-preact",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/preact": "^3.1.2",
+    "@preact/signals": "^1.2.3",
+    "astro": "^4.5.13",
+    "preact": "^10.20.1",
+    "typescript": "^5.4.3"
+  }
+}
